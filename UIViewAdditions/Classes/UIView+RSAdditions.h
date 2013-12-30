@@ -21,4 +21,7 @@
 @property CGFloat height;
 @property CGFloat width;
 
+@property CGPoint origin;
+@property CGSize size;
+
 @end
