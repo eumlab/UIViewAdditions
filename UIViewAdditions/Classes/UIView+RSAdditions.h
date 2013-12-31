@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#define SCREEN_HEIGHT     [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_WIDTH      [[UIScreen mainScreen] bounds].size.width
+#define CONTENT_HEIGHT    (SCREEN_HEIGHT - NAV_BAR_HEIGHT - STATUS_BAR_HEIGHT)
+#define STATUS_BAR_HEIGHT 20
+#define NAV_BAR_HEIGHT    44
+
 @interface UIView (RSAdditions)
 
 @property CGFloat top;
